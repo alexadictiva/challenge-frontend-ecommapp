@@ -1,0 +1,70 @@
+---
+
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <title>Inventario Ecomm-App</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+<style is:global>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src:
+      url("./../assets/fonts/Poppins-Light.woff") format("woff"),
+      url("./../assets/fonts/Poppins-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src:
+      url("./../assets/fonts/Poppins-Medium.woff") format("woff"),
+      url("./../assets/fonts/Poppins-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src:
+      url("./../assets/fonts/Poppins-SemiBold.woff") format("woff"),
+      url("./../assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src:
+      url("./../assets/fonts/Poppins-Bold.woff") format("woff"),
+      url("./../assets/fonts/Poppins-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  .rotate-button {
+    transform: rotate(0deg) !important;
+  }
+</style>
